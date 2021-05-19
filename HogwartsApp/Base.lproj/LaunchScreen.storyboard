@@ -7,6 +7,11 @@
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="HARRYP__.TTF">
+            <string>HarryP</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
@@ -16,18 +21,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="hogwarts1024" translatesAutoresizingMaskIntoConstraints="NO" id="pl4-Lq-zc9">
-                                <rect key="frame" x="15" y="258" width="385" height="381"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hogwartscrest" translatesAutoresizingMaskIntoConstraints="NO" id="n5D-R8-Psq">
+                                <rect key="frame" x="34" y="328" width="351" height="420"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="420" id="vQC-dh-mbV"/>
+                                </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hogwarts App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bsr-vo-KAg">
+                                <rect key="frame" x="34" y="232" width="346" height="67"/>
+                                <fontDescription key="fontDescription" name="HarryP" family="Harry P" pointSize="70"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" systemColor="systemFillColor"/>
+                        <color key="backgroundColor" red="1" green="0.6641617774571027" blue="0.15743487900656583" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" systemColor="systemGray2Color"/>
                         <constraints>
-                            <constraint firstItem="pl4-Lq-zc9" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8AV-Ep-Rnm"/>
-                            <constraint firstItem="pl4-Lq-zc9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="214" id="GLl-CV-rSd"/>
-                            <constraint firstItem="pl4-Lq-zc9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="UW2-S7-CyP"/>
-                            <constraint firstItem="pl4-Lq-zc9" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="kO0-sP-Wip"/>
+                            <constraint firstItem="n5D-R8-Psq" firstAttribute="top" secondItem="bsr-vo-KAg" secondAttribute="bottom" constant="29" id="04b-13-RpG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="n5D-R8-Psq" secondAttribute="trailing" constant="29" id="1tx-CQ-H6f"/>
+                            <constraint firstItem="n5D-R8-Psq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="34" id="2Yl-mD-EcW"/>
+                            <constraint firstItem="bsr-vo-KAg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="188" id="HMm-Tf-QZl"/>
+                            <constraint firstItem="bsr-vo-KAg" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="SDU-Rj-EdT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="n5D-R8-Psq" secondAttribute="bottom" constant="114" id="pWw-Nh-efD"/>
+                            <constraint firstItem="bsr-vo-KAg" firstAttribute="leading" secondItem="n5D-R8-Psq" secondAttribute="leading" id="s3B-UK-RO3"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -37,9 +53,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="hogwarts1024" width="1024" height="1024"/>
-        <systemColor name="systemFillColor">
-            <color red="0.47058823529411764" green="0.47058823529411764" blue="0.50196078431372548" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+        <image name="Hogwartscrest" width="596" height="600"/>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
