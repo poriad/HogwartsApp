@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		268A10170EF1221DFADF233F /* Pods_HogwartsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B82B67EB91411687EE8D06 /* Pods_HogwartsApp.framework */; };
+		FF61B72126590850006487ED /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF61B72026590850006487ED /* Characters.swift */; };
+		FF696E1E2658173C00F43CD9 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF696E1D2658173C00F43CD9 /* Character.swift */; };
+		FF696E272658182400F43CD9 /* Wand.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF696E262658182400F43CD9 /* Wand.swift */; };
 		FFAEA1EE26557EB1006BBFF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAEA1ED26557EB1006BBFF4 /* AppDelegate.swift */; };
 		FFAEA1F026557EB1006BBFF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAEA1EF26557EB1006BBFF4 /* SceneDelegate.swift */; };
 		FFAEA1F226557EB1006BBFF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAEA1F126557EB1006BBFF4 /* ViewController.swift */; };
@@ -17,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		89B82B67EB91411687EE8D06 /* Pods_HogwartsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HogwartsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA235FABDD8CE7211255DF0C /* Pods-HogwartsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HogwartsApp.debug.xcconfig"; path = "Target Support Files/Pods-HogwartsApp/Pods-HogwartsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D59ECAC7ADCAD172F05E4C93 /* Pods-HogwartsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HogwartsApp.release.xcconfig"; path = "Target Support Files/Pods-HogwartsApp/Pods-HogwartsApp.release.xcconfig"; sourceTree = "<group>"; };
+		FF61B72026590850006487ED /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Characters.swift; path = ../../../../../Downloads/Characters.swift; sourceTree = "<group>"; };
+		FF696E1D2658173C00F43CD9 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		FF696E262658182400F43CD9 /* Wand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wand.swift; sourceTree = "<group>"; };
 		FFAEA1EA26557EB1006BBFF4 /* HogwartsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HogwartsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFAEA1ED26557EB1006BBFF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFAEA1EF26557EB1006BBFF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,17 +43,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				268A10170EF1221DFADF233F /* Pods_HogwartsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		642755E357102AE4A764BB82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89B82B67EB91411687EE8D06 /* Pods_HogwartsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB9A0C839D0192AEDDFAC9FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA235FABDD8CE7211255DF0C /* Pods-HogwartsApp.debug.xcconfig */,
+				D59ECAC7ADCAD172F05E4C93 /* Pods-HogwartsApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF696E1C265816F200F43CD9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF696E1D2658173C00F43CD9 /* Character.swift */,
+				FF696E262658182400F43CD9 /* Wand.swift */,
+				FF61B72026590850006487ED /* Characters.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FFAEA1E126557EB1006BBFF4 = {
 			isa = PBXGroup;
 			children = (
 				FFAEA1EC26557EB1006BBFF4 /* HogwartsApp */,
 				FFAEA1EB26557EB1006BBFF4 /* Products */,
+				BB9A0C839D0192AEDDFAC9FF /* Pods */,
+				642755E357102AE4A764BB82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +98,7 @@
 		FFAEA1EC26557EB1006BBFF4 /* HogwartsApp */ = {
 			isa = PBXGroup;
 			children = (
+				FF696E1C265816F200F43CD9 /* Model */,
 				FFAEA1ED26557EB1006BBFF4 /* AppDelegate.swift */,
 				FFAEA1EF26557EB1006BBFF4 /* SceneDelegate.swift */,
 				FFAEA1F126557EB1006BBFF4 /* ViewController.swift */,
@@ -77,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFAEA1FE26557EB2006BBFF4 /* Build configuration list for PBXNativeTarget "HogwartsApp" */;
 			buildPhases = (
+				90C47B138295C0248508A5EB /* [CP] Check Pods Manifest.lock */,
 				FFAEA1E626557EB1006BBFF4 /* Sources */,
 				FFAEA1E726557EB1006BBFF4 /* Frameworks */,
 				FFAEA1E826557EB1006BBFF4 /* Resources */,
+				A5D8F1C8DE54BEB9B9A62CBF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,14 +179,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		90C47B138295C0248508A5EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HogwartsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5D8F1C8DE54BEB9B9A62CBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HogwartsApp/Pods-HogwartsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HogwartsApp/Pods-HogwartsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HogwartsApp/Pods-HogwartsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FFAEA1E626557EB1006BBFF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FFAEA1F226557EB1006BBFF4 /* ViewController.swift in Sources */,
+				FF61B72126590850006487ED /* Characters.swift in Sources */,
 				FFAEA1EE26557EB1006BBFF4 /* AppDelegate.swift in Sources */,
+				FF696E272658182400F43CD9 /* Wand.swift in Sources */,
 				FFAEA1F026557EB1006BBFF4 /* SceneDelegate.swift in Sources */,
+				FF696E1E2658173C00F43CD9 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +375,7 @@
 		};
 		FFAEA1FF26557EB2006BBFF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA235FABDD8CE7211255DF0C /* Pods-HogwartsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +395,7 @@
 		};
 		FFAEA20026557EB2006BBFF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D59ECAC7ADCAD172F05E4C93 /* Pods-HogwartsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
