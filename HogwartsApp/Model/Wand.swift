@@ -10,5 +10,4 @@ import Foundation
 struct Wand : Codable {
     var wood : String
     var core : String
-    var length : Int
 }

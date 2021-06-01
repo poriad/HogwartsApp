@@ -23,5 +23,4 @@ struct Character : Codable {
     var hogwartsStaff: Bool
     var actor: String
     var alive: Bool
-    var image: URL
 }

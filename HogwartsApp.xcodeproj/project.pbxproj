@@ -11,9 +11,12 @@
 		FF61B72126590850006487ED /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF61B72026590850006487ED /* Characters.swift */; };
 		FF696E1E2658173C00F43CD9 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF696E1D2658173C00F43CD9 /* Character.swift */; };
 		FF696E272658182400F43CD9 /* Wand.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF696E262658182400F43CD9 /* Wand.swift */; };
+		FF6D9D6D265C23C300C79F00 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6D9D6C265C23C300C79F00 /* UIFont.swift */; };
+		FF90DE9B2660109F0027344B /* AnimationControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF90DE9A2660109F0027344B /* AnimationControllers.swift */; };
+		FF90DE9E26601EBF0027344B /* AnimatedTabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF90DE9D26601EBF0027344B /* AnimatedTabBarControllerViewController.swift */; };
 		FFAEA1EE26557EB1006BBFF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAEA1ED26557EB1006BBFF4 /* AppDelegate.swift */; };
 		FFAEA1F026557EB1006BBFF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAEA1EF26557EB1006BBFF4 /* SceneDelegate.swift */; };
-		FFAEA1F226557EB1006BBFF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAEA1F126557EB1006BBFF4 /* ViewController.swift */; };
+		FFAEA1F226557EB1006BBFF4 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAEA1F126557EB1006BBFF4 /* HomeScreen.swift */; };
 		FFAEA1F526557EB1006BBFF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFAEA1F326557EB1006BBFF4 /* Main.storyboard */; };
 		FFAEA1F726557EB2006BBFF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFAEA1F626557EB2006BBFF4 /* Assets.xcassets */; };
 		FFAEA1FA26557EB2006BBFF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFAEA1F826557EB2006BBFF4 /* LaunchScreen.storyboard */; };
@@ -27,10 +30,13 @@
 		FF61B72026590850006487ED /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Characters.swift; path = ../../../../../Downloads/Characters.swift; sourceTree = "<group>"; };
 		FF696E1D2658173C00F43CD9 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		FF696E262658182400F43CD9 /* Wand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wand.swift; sourceTree = "<group>"; };
+		FF6D9D6C265C23C300C79F00 /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		FF90DE9A2660109F0027344B /* AnimationControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationControllers.swift; sourceTree = "<group>"; };
+		FF90DE9D26601EBF0027344B /* AnimatedTabBarControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTabBarControllerViewController.swift; sourceTree = "<group>"; };
 		FFAEA1EA26557EB1006BBFF4 /* HogwartsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HogwartsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFAEA1ED26557EB1006BBFF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFAEA1EF26557EB1006BBFF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FFAEA1F126557EB1006BBFF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFAEA1F126557EB1006BBFF4 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		FFAEA1F426557EB1006BBFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFAEA1F626557EB2006BBFF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFAEA1F926557EB2006BBFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,12 +107,15 @@
 				FF696E1C265816F200F43CD9 /* Model */,
 				FFAEA1ED26557EB1006BBFF4 /* AppDelegate.swift */,
 				FFAEA1EF26557EB1006BBFF4 /* SceneDelegate.swift */,
-				FFAEA1F126557EB1006BBFF4 /* ViewController.swift */,
+				FFAEA1F126557EB1006BBFF4 /* HomeScreen.swift */,
+				FF6D9D6C265C23C300C79F00 /* UIFont.swift */,
 				FFAEA1F326557EB1006BBFF4 /* Main.storyboard */,
 				FFAEA1F626557EB2006BBFF4 /* Assets.xcassets */,
 				FFAEA1F826557EB2006BBFF4 /* LaunchScreen.storyboard */,
 				FFAEA1FB26557EB2006BBFF4 /* Info.plist */,
 				FFAEA20A26559171006BBFF4 /* fonts */,
+				FF90DE9A2660109F0027344B /* AnimationControllers.swift */,
+				FF90DE9D26601EBF0027344B /* AnimatedTabBarControllerViewController.swift */,
 			);
 			path = HogwartsApp;
 			sourceTree = "<group>";
@@ -226,9 +235,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFAEA1F226557EB1006BBFF4 /* ViewController.swift in Sources */,
+				FFAEA1F226557EB1006BBFF4 /* HomeScreen.swift in Sources */,
 				FF61B72126590850006487ED /* Characters.swift in Sources */,
 				FFAEA1EE26557EB1006BBFF4 /* AppDelegate.swift in Sources */,
+				FF90DE9E26601EBF0027344B /* AnimatedTabBarControllerViewController.swift in Sources */,
+				FF6D9D6D265C23C300C79F00 /* UIFont.swift in Sources */,
+				FF90DE9B2660109F0027344B /* AnimationControllers.swift in Sources */,
 				FF696E272658182400F43CD9 /* Wand.swift in Sources */,
 				FFAEA1F026557EB1006BBFF4 /* SceneDelegate.swift in Sources */,
 				FF696E1E2658173C00F43CD9 /* Character.swift in Sources */,
