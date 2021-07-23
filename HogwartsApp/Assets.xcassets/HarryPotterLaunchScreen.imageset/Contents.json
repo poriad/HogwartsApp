@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "Character@1x.png",
+      "filename" : "harry-potter-nawpic-3.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Character@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Character@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
@@ -19,8 +17,5 @@
   "info" : {
     "author" : "xcode",
     "version" : 1
-  },
-  "properties" : {
-    "template-rendering-intent" : "original"
   }
 }

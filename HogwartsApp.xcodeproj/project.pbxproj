@@ -8,40 +8,64 @@
 
 /* Begin PBXBuildFile section */
 		268A10170EF1221DFADF233F /* Pods_HogwartsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B82B67EB91411687EE8D06 /* Pods_HogwartsApp.framework */; };
-		FF61B72126590850006487ED /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF61B72026590850006487ED /* Characters.swift */; };
+		FF1CBEAC26669EF50077283E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1CBEAB26669EF50077283E /* Item.swift */; };
+		FF1CBEB12666A2470077283E /* HarryPotterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1CBEB02666A2470077283E /* HarryPotterAPI.swift */; };
+		FF1CBEB42666A40E0077283E /* CharactersScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1CBEB32666A40E0077283E /* CharactersScreenViewController.swift */; };
+		FF26D26326826936000F5B24 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26D26226826936000F5B24 /* ColorExtension.swift */; };
+		FF38C125269B09A2007155A9 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38C124269B09A2007155A9 /* StringUtils.swift */; };
+		FF38C127269B0E9C007155A9 /* LabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38C126269B0E9C007155A9 /* LabelExtension.swift */; };
+		FF5D4AD92667F73300DE8CFD /* HousesScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D4AD82667F73300DE8CFD /* HousesScreenViewController.swift */; };
+		FF5D4ADC2667F80200DE8CFD /* HouseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D4ADB2667F80200DE8CFD /* HouseCell.swift */; };
+		FF5D4AE02667FCA800DE8CFD /* ImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D4ADF2667FCA800DE8CFD /* ImageUtils.swift */; };
+		FF5D4AE32668070A00DE8CFD /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D4AE22668070A00DE8CFD /* House.swift */; };
+		FF64DD2F26906E62003654B7 /* CharactersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF64DD2E26906E62003654B7 /* CharactersCollectionViewCell.swift */; };
 		FF696E1E2658173C00F43CD9 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF696E1D2658173C00F43CD9 /* Character.swift */; };
 		FF696E272658182400F43CD9 /* Wand.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF696E262658182400F43CD9 /* Wand.swift */; };
 		FF6D9D6D265C23C300C79F00 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6D9D6C265C23C300C79F00 /* UIFont.swift */; };
-		FF90DE9B2660109F0027344B /* AnimationControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF90DE9A2660109F0027344B /* AnimationControllers.swift */; };
-		FF90DE9E26601EBF0027344B /* AnimatedTabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF90DE9D26601EBF0027344B /* AnimatedTabBarControllerViewController.swift */; };
+		FF79D6662699A0E50069B1B2 /* AnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF79D6652699A0E50069B1B2 /* AnimatedTabBarController.swift */; };
+		FF79D6682699A1130069B1B2 /* AnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF79D6672699A1130069B1B2 /* AnimationController.swift */; };
 		FFAEA1EE26557EB1006BBFF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAEA1ED26557EB1006BBFF4 /* AppDelegate.swift */; };
 		FFAEA1F026557EB1006BBFF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAEA1EF26557EB1006BBFF4 /* SceneDelegate.swift */; };
-		FFAEA1F226557EB1006BBFF4 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAEA1F126557EB1006BBFF4 /* HomeScreen.swift */; };
+		FFAEA1F226557EB1006BBFF4 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAEA1F126557EB1006BBFF4 /* HomeScreenViewController.swift */; };
 		FFAEA1F526557EB1006BBFF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFAEA1F326557EB1006BBFF4 /* Main.storyboard */; };
 		FFAEA1F726557EB2006BBFF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFAEA1F626557EB2006BBFF4 /* Assets.xcassets */; };
 		FFAEA1FA26557EB2006BBFF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFAEA1F826557EB2006BBFF4 /* LaunchScreen.storyboard */; };
 		FFAEA20B26559171006BBFF4 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = FFAEA20A26559171006BBFF4 /* fonts */; };
+		FFBB0C90268883E9007C9F46 /* HouseDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBB0C8F268883E9007C9F46 /* HouseDetailController.swift */; };
+		FFF9A615268E2F7500D7D503 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF9A614268E2F7500D7D503 /* CharacterCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		89B82B67EB91411687EE8D06 /* Pods_HogwartsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HogwartsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA235FABDD8CE7211255DF0C /* Pods-HogwartsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HogwartsApp.debug.xcconfig"; path = "Target Support Files/Pods-HogwartsApp/Pods-HogwartsApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D59ECAC7ADCAD172F05E4C93 /* Pods-HogwartsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HogwartsApp.release.xcconfig"; path = "Target Support Files/Pods-HogwartsApp/Pods-HogwartsApp.release.xcconfig"; sourceTree = "<group>"; };
-		FF61B72026590850006487ED /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Characters.swift; path = ../../../../../Downloads/Characters.swift; sourceTree = "<group>"; };
+		FF1CBEAB26669EF50077283E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FF1CBEB02666A2470077283E /* HarryPotterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterAPI.swift; sourceTree = "<group>"; };
+		FF1CBEB32666A40E0077283E /* CharactersScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersScreenViewController.swift; sourceTree = "<group>"; };
+		FF26D26226826936000F5B24 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		FF38C124269B09A2007155A9 /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		FF38C126269B0E9C007155A9 /* LabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExtension.swift; sourceTree = "<group>"; };
+		FF5D4AD82667F73300DE8CFD /* HousesScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesScreenViewController.swift; sourceTree = "<group>"; };
+		FF5D4ADB2667F80200DE8CFD /* HouseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseCell.swift; sourceTree = "<group>"; };
+		FF5D4ADF2667FCA800DE8CFD /* ImageUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtils.swift; sourceTree = "<group>"; };
+		FF5D4AE22668070A00DE8CFD /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		FF64DD2E26906E62003654B7 /* CharactersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersCollectionViewCell.swift; sourceTree = "<group>"; };
 		FF696E1D2658173C00F43CD9 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		FF696E262658182400F43CD9 /* Wand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wand.swift; sourceTree = "<group>"; };
 		FF6D9D6C265C23C300C79F00 /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
-		FF90DE9A2660109F0027344B /* AnimationControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationControllers.swift; sourceTree = "<group>"; };
-		FF90DE9D26601EBF0027344B /* AnimatedTabBarControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTabBarControllerViewController.swift; sourceTree = "<group>"; };
+		FF79D6652699A0E50069B1B2 /* AnimatedTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTabBarController.swift; sourceTree = "<group>"; };
+		FF79D6672699A1130069B1B2 /* AnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationController.swift; sourceTree = "<group>"; };
 		FFAEA1EA26557EB1006BBFF4 /* HogwartsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HogwartsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFAEA1ED26557EB1006BBFF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFAEA1EF26557EB1006BBFF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FFAEA1F126557EB1006BBFF4 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		FFAEA1F126557EB1006BBFF4 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		FFAEA1F426557EB1006BBFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFAEA1F626557EB2006BBFF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFAEA1F926557EB2006BBFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFAEA1FB26557EB2006BBFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFAEA20A26559171006BBFF4 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = ../../../../Downloads/fonts; sourceTree = "<group>"; };
+		FFBB0C8F268883E9007C9F46 /* HouseDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailController.swift; sourceTree = "<group>"; };
+		FFF9A614268E2F7500D7D503 /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,12 +97,72 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		FF1CBE9D26669C3E0077283E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FFAEA1F126557EB1006BBFF4 /* HomeScreenViewController.swift */,
+				FF1CBEB32666A40E0077283E /* CharactersScreenViewController.swift */,
+				FF5D4AD82667F73300DE8CFD /* HousesScreenViewController.swift */,
+				FFBB0C8F268883E9007C9F46 /* HouseDetailController.swift */,
+				FF79D6652699A0E50069B1B2 /* AnimatedTabBarController.swift */,
+				FF79D6672699A1130069B1B2 /* AnimationController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FF1CBE9E26669C560077283E /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				FFAEA1ED26557EB1006BBFF4 /* AppDelegate.swift */,
+			);
+			path = Startup;
+			sourceTree = "<group>";
+		};
+		FF1CBEA726669CC80077283E /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FFAEA1FB26557EB2006BBFF4 /* Info.plist */,
+				FFAEA1F826557EB2006BBFF4 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		FF1CBEAE26669F650077283E /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				FF1CBEB02666A2470077283E /* HarryPotterAPI.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		FF1CBEB82666A5B30077283E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF5D4ADB2667F80200DE8CFD /* HouseCell.swift */,
+				FFF9A614268E2F7500D7D503 /* CharacterCell.swift */,
+				FF64DD2E26906E62003654B7 /* CharactersCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF5D4ADE2667FC9400DE8CFD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FF5D4ADF2667FCA800DE8CFD /* ImageUtils.swift */,
+				FF26D26226826936000F5B24 /* ColorExtension.swift */,
+				FF38C124269B09A2007155A9 /* StringUtils.swift */,
+				FF38C126269B0E9C007155A9 /* LabelExtension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		FF696E1C265816F200F43CD9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				FF696E1D2658173C00F43CD9 /* Character.swift */,
 				FF696E262658182400F43CD9 /* Wand.swift */,
-				FF61B72026590850006487ED /* Characters.swift */,
+				FF1CBEAB26669EF50077283E /* Item.swift */,
+				FF5D4AE22668070A00DE8CFD /* House.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -104,18 +188,18 @@
 		FFAEA1EC26557EB1006BBFF4 /* HogwartsApp */ = {
 			isa = PBXGroup;
 			children = (
+				FF5D4ADE2667FC9400DE8CFD /* Utils */,
+				FF1CBEB82666A5B30077283E /* Views */,
+				FF1CBEAE26669F650077283E /* Api */,
+				FF1CBEA726669CC80077283E /* SupportingFiles */,
+				FF1CBE9E26669C560077283E /* Startup */,
+				FF1CBE9D26669C3E0077283E /* Controllers */,
 				FF696E1C265816F200F43CD9 /* Model */,
-				FFAEA1ED26557EB1006BBFF4 /* AppDelegate.swift */,
 				FFAEA1EF26557EB1006BBFF4 /* SceneDelegate.swift */,
-				FFAEA1F126557EB1006BBFF4 /* HomeScreen.swift */,
 				FF6D9D6C265C23C300C79F00 /* UIFont.swift */,
 				FFAEA1F326557EB1006BBFF4 /* Main.storyboard */,
 				FFAEA1F626557EB2006BBFF4 /* Assets.xcassets */,
-				FFAEA1F826557EB2006BBFF4 /* LaunchScreen.storyboard */,
-				FFAEA1FB26557EB2006BBFF4 /* Info.plist */,
 				FFAEA20A26559171006BBFF4 /* fonts */,
-				FF90DE9A2660109F0027344B /* AnimationControllers.swift */,
-				FF90DE9D26601EBF0027344B /* AnimatedTabBarControllerViewController.swift */,
 			);
 			path = HogwartsApp;
 			sourceTree = "<group>";
@@ -235,13 +319,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFAEA1F226557EB1006BBFF4 /* HomeScreen.swift in Sources */,
-				FF61B72126590850006487ED /* Characters.swift in Sources */,
+				FF38C127269B0E9C007155A9 /* LabelExtension.swift in Sources */,
+				FF1CBEAC26669EF50077283E /* Item.swift in Sources */,
+				FFAEA1F226557EB1006BBFF4 /* HomeScreenViewController.swift in Sources */,
+				FF5D4ADC2667F80200DE8CFD /* HouseCell.swift in Sources */,
+				FF79D6682699A1130069B1B2 /* AnimationController.swift in Sources */,
+				FF1CBEB42666A40E0077283E /* CharactersScreenViewController.swift in Sources */,
+				FF64DD2F26906E62003654B7 /* CharactersCollectionViewCell.swift in Sources */,
 				FFAEA1EE26557EB1006BBFF4 /* AppDelegate.swift in Sources */,
-				FF90DE9E26601EBF0027344B /* AnimatedTabBarControllerViewController.swift in Sources */,
+				FF26D26326826936000F5B24 /* ColorExtension.swift in Sources */,
+				FF5D4AD92667F73300DE8CFD /* HousesScreenViewController.swift in Sources */,
+				FF79D6662699A0E50069B1B2 /* AnimatedTabBarController.swift in Sources */,
 				FF6D9D6D265C23C300C79F00 /* UIFont.swift in Sources */,
-				FF90DE9B2660109F0027344B /* AnimationControllers.swift in Sources */,
+				FF5D4AE02667FCA800DE8CFD /* ImageUtils.swift in Sources */,
+				FF5D4AE32668070A00DE8CFD /* House.swift in Sources */,
 				FF696E272658182400F43CD9 /* Wand.swift in Sources */,
+				FF1CBEB12666A2470077283E /* HarryPotterAPI.swift in Sources */,
+				FFF9A615268E2F7500D7D503 /* CharacterCell.swift in Sources */,
+				FF38C125269B09A2007155A9 /* StringUtils.swift in Sources */,
+				FFBB0C90268883E9007C9F46 /* HouseDetailController.swift in Sources */,
 				FFAEA1F026557EB1006BBFF4 /* SceneDelegate.swift in Sources */,
 				FF696E1E2658173C00F43CD9 /* Character.swift in Sources */,
 			);
@@ -393,7 +489,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8YHHL539YA;
-				INFOPLIST_FILE = HogwartsApp/Info.plist;
+				INFOPLIST_FILE = HogwartsApp/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -413,7 +509,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8YHHL539YA;
-				INFOPLIST_FILE = HogwartsApp/Info.plist;
+				INFOPLIST_FILE = HogwartsApp/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

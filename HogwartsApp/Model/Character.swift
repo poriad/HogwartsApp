@@ -7,13 +7,13 @@
 
 import Foundation
 
-struct Character : Codable {
+struct Character : Decodable {
     var name : String
     var species: String
     var gender: String
     var house: String
     var dateOfBirth: String
-    var yearOfBirth: Int
+    var yearOfBirth: QuantumValue
     var ancestry: String
     var eyeColour: String
     var hairColour: String
@@ -23,4 +23,30 @@ struct Character : Codable {
     var hogwartsStaff: Bool
     var actor: String
     var alive: Bool
+    var image: String 
+    
+    
+}
+
+enum QuantumValue: Decodable {
+
+    case float(Float), string(String)
+
+    init(from decoder: Decoder) throws {
+        if let float = try? decoder.singleValueContainer().decode(Float.self) {
+            self = .float(float)
+            return
+        }
+
+        if let string = try? decoder.singleValueContainer().decode(String.self) {
+            self = .string(string)
+            return
+        }
+
+        throw QuantumError.missingValue
+    }
+
+    enum QuantumError:Error {
+        case missingValue
+    }
 }

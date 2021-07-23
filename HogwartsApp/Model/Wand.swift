@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct Wand : Codable {
+struct Wand : Decodable {
     var wood : String
     var core : String
+    var length: QuantumValue
 }

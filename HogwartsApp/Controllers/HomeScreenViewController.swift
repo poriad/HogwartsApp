@@ -8,28 +8,23 @@
 import UIKit
 import CardSlider
 
-struct Item: CardSliderItem {
-    var image: UIImage
-    var rating: Int?
-    var title: String
-    var subtitle: String?
-    var description: String?
-}
-
-class HomeScreen: UIViewController, UINavigationControllerDelegate, CardSliderDataSource {
+class HomeScreenViewController: UIViewController, UINavigationControllerDelegate, CardSliderDataSource {
     
     let urlString = "https://hp-api.herokuapp.com/api/characters"
     var dataTask: URLSessionDataTask?
     var data = [Item]()
+    var colors = [UIColor]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let imageP = getImage(from: "https://i.pinimg.com/736x/8b/ff/89/8bff8941157e5598ee4313e2faab1410.jpg") {
-            data.append(Item(image: imageP, rating: nil, title: "Hola", subtitle: "Adios", description: "Vaya descripcion nano"))
-            data.append(Item(image: imageP, rating: nil, title: "Hola", subtitle: "Adios", description: "Vaya descripcion nano"))
-            data.append(Item(image: imageP, rating: nil, title: "Hola", subtitle: "Adios", description: "Vaya descripcion nano"))
-            data.append(Item(image: imageP, rating: nil, title: "Hola", subtitle: "Adios", description: "Vaya descripcion nano"))
+        if let imageP = ImageUtils.getImage(from: "https://i.pinimg.com/736x/8b/ff/89/8bff8941157e5598ee4313e2faab1410.jpg") {
+            data.append(Item(image: imageP, rating: 4, title: "Hola", subtitle: "Adios", description: "Vaya descripcion nano"))
+            data.append(Item(image: imageP, rating: 3, title: "Hola", subtitle: "Adios", description: "Vaya descripcion nano"))
+            data.append(Item(image: imageP, rating: 2, title: "Hola", subtitle: "Adios", description: "Vaya descripcion nano"))
+        }
+        if let imageTwo = ImageUtils.getImage(from: "https://wallpaperboat.com/wp-content/uploads/2019/06/harry-potter-19-1.jpg") {
+            data.append(Item(image: imageTwo, rating: nil, title: "Hola", subtitle: "Adios", description: "Vaya descripcion nano"))
         }
 
     }
@@ -40,26 +35,7 @@ class HomeScreen: UIViewController, UINavigationControllerDelegate, CardSliderDa
         addChild(characterSliderController)
         view.addSubview(characterSliderController.view)
         characterSliderController.didMove(toParent: self)
-        characterSliderController.modalPresentationStyle = .fullScreen
-    }
-    
-    func getImage(from string: String) -> UIImage? {
-        guard let url = URL(string: string)
-            else {
-                print("Unable to create URL")
-                return nil
-        }
-
-        var image: UIImage? = nil
-        do {
-            let data = try Data(contentsOf: url, options: [])
-            image = UIImage(data: data)
-        }
-        catch {
-            print(error.localizedDescription)
-        }
-
-        return image
+        characterSliderController.modalPresentationStyle = .automatic
     }
 
     func loadCharacters() {
@@ -84,9 +60,9 @@ class HomeScreen: UIViewController, UINavigationControllerDelegate, CardSliderDa
 //            }
         }.resume()
     }
-    
+
     func item(for index: Int) -> CardSliderItem {
-        data[index]
+        return data[index]
     }
     
     func numberOfItems() -> Int {
